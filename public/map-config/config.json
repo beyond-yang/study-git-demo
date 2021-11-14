@@ -1,0 +1,238 @@
+{
+  "initialWidget": {
+    "navigation": false
+  },
+  "atmosphereSky": true,
+  "fog": true,
+  "terrainExaggeration": 1,
+  "infoWindow": true,
+  "cesiumNavigation": {
+    "enableCompass": false,
+    "enableZoomControls": false,
+    "enableDistanceLegend": true,
+    "enableCompassOuterRing": true,
+    "coordinates": {
+      "align": "left"
+    }
+  },
+  "debug": false,
+  "testTerrain": false,
+  "lighting": false,
+  "orderIndependentTranslucency": false,
+  "contextOptions": {
+    "webgl": {
+      "alpha": true
+    }
+  },
+  "terrain": {
+    "url": "https://www.supermapol.com/realspace/services/3D-stk_terrain/rest/realspace/datas/info/data/path",
+    "requestWaterMask": false,
+    "requestVertexNormals": true,
+    "requestMetadata": false,
+    "isSct": false,
+    "credit": ""
+  },
+  "skyBox": false,
+  "map": {
+    "basemaps": [
+      {
+        "visible": false,
+        "label": "四维地图（影像地图）",
+        "type": "wmts",
+        "id": "四维地图（影像地图）",
+        "layerInfo": {
+          "identifier": "all",
+          "format": "png",
+          "tileMatrixSet": "GoogleCRS84Quad",
+          "style": "default"
+        },
+        "serviceMode": "RESTful",
+        "url": "https://service.siweiearth.com/seis/v3/wmts_rest/tile/1012/0",
+        "urlParams": "access_token=d1d7a3cd7c55d81777ced7a486a37b86&product_id=102",
+        "maximumLevel": 18,
+        "tilingScheme": "geo",
+        "tileMatrixLabels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      {
+        "id": "天地图（影像地图）",
+        "label": "天地图（影像地图）",
+        "type": "wmts",
+        "url": "http://10.100.248.130:8080/img_c/wmts",
+        "visible": true,
+        "serviceMode": "KVP",
+        "layerInfo": {
+          "identifier": "img",
+          "tileMatrixSet": "c",
+          "format": "png",
+          "style": "default"
+        },
+        "maximumLevel": 18,
+        "tilingScheme": "geo",
+        "tileMatrixLabels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      {
+        "id": "天地图（矢量地图）",
+        "label": "天地图（矢量地图）",
+        "type": "wmts",
+        "url": "http://10.100.248.130:8080/vec_c/wmts",
+        "visible": false,
+        "serviceMode": "KVP",
+        "layerInfo": {
+          "identifier": "vec",
+          "tileMatrixSet": "c",
+          "format": "png",
+          "style": "default"
+        },
+        "maximumLevel": 18,
+        "tilingScheme": "geo",
+        "tileMatrixLabels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      {
+        "id": "天地图（地形地图）",
+        "label": "天地图（地形地图）",
+        "type": "wmts",
+        "url": "http://10.100.248.130:8080/ter_c/wmts",
+        "visible": false,
+        "serviceMode": "KVP",
+        "layerInfo": {
+          "identifier": "ter",
+          "tileMatrixSet": "c",
+          "format": "png",
+          "style": "default"
+        },
+        "maximumLevel": 18,
+        "tilingScheme": "geo",
+        "tileMatrixLabels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      {
+        "visible": true,
+        "label": "国界",
+        "type": "tiandituibo2000",
+        "id": "国界"
+      }
+    ],
+    "mapOptions": {
+      "range": "center",
+      "center": {
+        "x": 103.12753084920247,
+        "y": 32.29587900631816,
+        "height": 38041010.00074933,
+        "orientation": {
+          "heading": 360,
+          "pitch": -89.91,
+          "roll": 0
+        },
+        "isFly": true
+      },
+      "spin": {
+        "isSpin": true,
+        "duration": 180,
+        "lat": 90,
+        "height": 5000000,
+        "speed": 1
+      },
+      "isPan": true,
+      "isScrollWheel": true,
+      "isTilt": true,
+      "minHeight": 0,
+      "maxHeight": 100000000000,
+      "backgroundColor": "rgba(0,0,0,0)"
+    }
+  },
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "closeable": true,
+        "placeholderIndex": 3,
+        "name": "图层列表",
+        "position": {
+          "top": 20,
+          "relativeTo": "map",
+          "right": 100
+        },
+        "id": "widgets_LayerManger_Widget",
+        "config": "http://localhost:8082/map-config/LayerManager/config.json",
+        "uri": "widgets/LayerManager/Widget",
+        "version": "2.3",
+        "openAtStart": true,
+        "showAtStart": false
+      }
+    ]
+  }
+}
