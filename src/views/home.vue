@@ -1,5 +1,6 @@
 <template>
   <section class="home-wrapper">
+    <h1>测试 git push -u origin main 的作用</h1>
     <!-- 左侧内容 -->
     <div class="view view__left scale">
       <div class="text-left">
