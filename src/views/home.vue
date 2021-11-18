@@ -6,6 +6,8 @@
     <h4>测试 git 的版本回退 reset 功能 2</h4>
     <h5>测试 git 的版本回退 reset 功能 3</h5>
     <h6>啦啦啦 测试 git diff</h6>
+    <span>测试git status</span>
+    <span>测试版本回退1</span>
     <!-- 左侧内容 -->
     <div class="view view__left scale">
       <div class="text-left">
