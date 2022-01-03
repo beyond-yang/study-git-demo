@@ -29,3 +29,6 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 测试 git stash 功能1add
+
+git cherry-pick 1
+git cherry-pick 2
