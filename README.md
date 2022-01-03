@@ -27,3 +27,5 @@ yarn lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+测试 git stash 功能1add
