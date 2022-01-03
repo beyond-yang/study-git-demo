@@ -125,6 +125,8 @@ export default defineComponent({
       }
     });
 
+    console.log('测试99999999');
+
     return {
       ...toRefs(state),
       testSocket,
